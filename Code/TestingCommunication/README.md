@@ -1,4 +1,5 @@
-![image.png](attachment:ef8047ee-44a6-45ea-99a5-8421b222b583:image.png)
+![Screenshot 2025-01-25 133004](https://github.com/user-attachments/assets/c7d22e2e-4fd1-4e54-a821-402c41678882)
+
 
 The code here is a prototype of how the final project will look like.
 
