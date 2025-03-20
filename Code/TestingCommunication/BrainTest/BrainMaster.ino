@@ -65,10 +65,9 @@ void loop() {
     byte focus = brain.readAttention();
     Serial.print(brain.readSignalQuality());
     Serial.print(" , ");
-    Serial.println(focus);
-     //Send message 
-  esp_err_t result = esp_now_send(SlaveAddress, (uint8_t*) &MindflexData, sizeof(focus));
-  
+     MindflexData.MindflexOutput = focus;
+   // Send data
+    esp_err_t result = esp_now_send(SlaveAddress, (uint8_t*) &MindflexData, sizeof(MindflexData));
   if(result == ESP_OK)
   {
     Serial.println("Data Sent succesfully");
@@ -77,7 +76,7 @@ void loop() {
   {
     Serial.println("Error sending data");
   }
-  delay(500);
+  delay(2500);
   }
   
 }
