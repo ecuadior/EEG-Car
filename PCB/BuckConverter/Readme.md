@@ -8,3 +8,5 @@ During the test it was found there was no error short shirt becasue the contitut
 Another possible issue is the instalation of yhe inductor to the pcb it might have damage something because when testing the connectvity of where the inductor will be place there is no noise(indacting contiuity is good) but this was with testing on the pcb with no componet. Howeverm doing the same test with the pcb with componets continutyi was found beteern the two ends of the the inductor. 
 Image below is version 1 of the buck converter
 ![IMG_2940](https://github.com/user-attachments/assets/bb2a5df2-f2a1-4a4d-9a2e-33d345717405)
+
+Buck Converter V2 during testing showcased outstanding result,s in which it was able to deliver the optimal output and was able to withstand the increase of temparutre during usage. 
